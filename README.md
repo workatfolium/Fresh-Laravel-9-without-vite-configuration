@@ -1,11 +1,8 @@
 ## Installation
 
-*Download or clone the repository in your system.*
-```
-git clone https://github.com/workatfolium/Fresh-Laravel-9-without-vite-configuration.git
-```
+*Select (with_ui) From Branch Dropdown & Download the repository.(Don't Clone the repository just download it in zip.)*
 
-*Go to Fresh-Laravel-9-without-vite-configuration folder and open terminal then follow below steps.*
+*After Downloading zip Go to Fresh-Laravel-9-without-vite-configuration-with_ui folder and open terminal then follow below steps.*
 
 *Install or Update Composer:*
 ```
@@ -39,6 +36,16 @@ php artisan key:generate
 php artisan migrate
 ```
 
+*Install NPM Dependencies:*
+```
+npm install
+```
+
+*Build Assets:*
+```
+npm run dev
+```
+
 *Clear cache by below command:*
 ```
 php artisan optimize
@@ -53,4 +60,4 @@ php artisan serve
 
 http://127.0.0.1:8000/
 
-*You Will Find The Running Laravel App Without The Latest Vite configuration Which has been added in latest laravel v9.2.0.*
+*You Will Find The Running Laravel(With Laravel Ui Authentication Added) App Without The Latest Vite configuration Which has been added in latest laravel v9.2.0.*
